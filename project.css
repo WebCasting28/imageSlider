@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.boxs {
+    width: 50%;
+    height: 300px;
+    border: 2px solid;
+    box-shadow: 1px 1px rgb(129, 127, 127);
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.box {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    transition: all 1s;
+}
+
+.box img {
+    width: 685px;
+    height: 300px;
+
+}
+
+#btn {
+    width: 5%;
+    margin: 0 auto;
+}
